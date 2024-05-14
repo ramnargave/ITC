@@ -10,6 +10,7 @@ import { IoSettingsSharp } from "react-icons/io5";
 const Contact = () => {
   return (
     <>
+    <div className="contact-main-main-container">
       <div className="contact-container">
         <div className="contact-us-img">
           <img src={ContactUs} alt="contact-us img" />
@@ -80,6 +81,7 @@ const Contact = () => {
             <h3>SEND MESSAGE</h3>
           </div>
         </div>
+      </div>
       </div>
     </>
   );

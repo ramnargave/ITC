@@ -1,15 +1,19 @@
 import './CeoSection.css'
+import ceoimg from '../../assets/img/ceo.png'
 
 function CeoSection() {
   return (
     <>
     <div className="ceo-setion-main-cont">
         <div className="ceo-sectionimg-div">
-            <img src="https://th.bing.com/th/id/OIP.6CNAaP22k1znuONlTziwTwHaK0?rs=1&pid=ImgDetMain" alt="" />
+            <img src={ceoimg} alt="" />
         </div>
         <div className="ceo-section-content">
-            <div className="ceo-section-main-content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error reprehenderit recusandae, modi, nostrum iure eos esse, temporibus qui nam numquam quos vitae explicabo incidunt fugit.</div>
-            <div className="ceo-section-content-name">CEO:- RAM NARGAVE</div>
+            <div className="ceo-section-main-content">Dr. Nandan Kumar, a leader in protective textiles, founded High Performance Textiles Pvt Ltd in 2010, focusing on innovative spinning technologies and flame-retardant fibers.
+
+
+</div>
+            <div className="ceo-section-content-name">CEO:- Dr. Nandan Kumar</div>
         </div>
     </div>
     </>

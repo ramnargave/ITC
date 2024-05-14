@@ -1,7 +1,8 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useRef } from "react";
 import "./Navbar.css";
-import BannerImg from "../../assets/img/training.jpg";
+import logo from '../../assets/img/logo.png'
+// import BannerImg from "../../assets/img/training.jpg";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { RiArrowDropDownLine } from "react-icons/ri";
 
@@ -14,7 +15,7 @@ const Header = () => {
 
   return (
     <header>
-      <img src={BannerImg} alt="" />
+      <img src={logo} alt="" />
 
       <nav ref={navRef}>
         <ul>
@@ -22,7 +23,7 @@ const Header = () => {
             <a href="/">Home</a>
           </li>
           <li>
-            <a href="#/">About</a>
+            <a href="#about">About</a>
           </li>
           <li>
             <a href="#/">
@@ -41,13 +42,13 @@ const Header = () => {
             </ul>
           </li>
           <li>
-            <a href="#/">Products</a>
+            <a href="/gallery">Gallery</a>
           </li>
           <li>
-            <a href="#/">Category</a>
+            <a href="/history">History</a>
           </li>
           <li>
-            <a href="#/">Contact</a>
+            <a href="/contact">Contact</a>
           </li>
         </ul>
 

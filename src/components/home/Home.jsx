@@ -5,7 +5,6 @@ import Feedbacksection from "../feedbacksection/Feedbacksection";
 import FrontBlog from "../front-blog/FrontBlog";
 import FrontServices from "../front-service/FrontService";
 import FrontContacj from "../frontContact/FrontContacj";
-import Navbar from "../navbar/Navbar";
 // import OurTeam from "../our-team/OurTeam";
 import "./Home.css";
 
@@ -13,8 +12,7 @@ function Home() {
   return (
     <>
       <div className="home-container">
-        {/* navbar  */}
-        <Navbar />
+
 
         {/* messagepop  */}
         <Modal />

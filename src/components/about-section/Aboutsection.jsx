@@ -7,7 +7,7 @@ import "./AbouSection.css";
 function Aboutsection() {
   return (
     <>
-      <div className="front-about-us-container">
+      <div id='about' className="front-about-us-container">
           <div className="front-about-top-container">
           <div className="front-about-to-img-div">
               <img src="https://th.bing.com/th/id/OIP.-BuFk_jhTmTWH7VHKAukCQHaE8?rs=1&pid=ImgDetMain" alt="" />
@@ -17,7 +17,9 @@ function Aboutsection() {
                 ABOUT US
               </div>
               <div className="front-content-div">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque sed, voluptatum quidem aspernatur repudiandae doloribus obcaecati vel recusandae exercitationem omnis aliquam culpa officiis odit porro est, odio cupiditate inventore tenetur totam dolores? Molestias, magnam rem!
+              Institute of Technical Textiles (ITT) was established in 2016. 
+Dr. Nandan Kumar is the CEO and founder of this company. ITT is equipped with various testing facilities that facilitates industries and researchers to get their test conducted in accordance with the European, International and Indian standards. The facilities include testing equipment as per EN 407, EN 388, BS EN 1149 and equivalent standards & test methods.
+One can get one's sample tested in this trusted laboratory.
               </div>
                 <div className="front-about-contack-btn-div">CONTACT US</div>
             </div>

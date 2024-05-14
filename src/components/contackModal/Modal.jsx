@@ -1,7 +1,8 @@
-import MessageIcon from '@mui/icons-material/Message';
+// import MessageIcon from '@mui/icons-material/Message';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import './Modal.css'
 import { useState } from 'react';
+import messages from '../../assets/img/messages.png'
 
 
 function Modal() {
@@ -20,7 +21,7 @@ const [messagepop, setMessagePop] = useState(false)
     </div>
 
 
-    <div className="message-icon" onClick={()=> setMessagePop(!messagepop)} ><MessageIcon/></div>
+    <div className="message-icon" onClick={()=> setMessagePop(!messagepop)} ><img src={messages} alt="" /></div>
     </div>
     
     </>
