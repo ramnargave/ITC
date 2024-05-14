@@ -1,0 +1,480 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+
+
+.services-main-container  > img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    object-fit: cover;
+   
+}
+
+.services-main-container .circle{
+    
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-top: -500px;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    
+    font-weight: 400;
+    
+    
+}
+
+
+.services-main-container .circle .inner-circle{
+    line-height: 100px;
+    border-radius: 50%;
+    background-color: rgb(48, 46, 46);
+    color: #ffffff;
+    padding-left: 16px;
+    width: 100px;
+    transition: all 0.3s;
+    letter-spacing: 2px;
+    font-size: 9px;
+
+}
+
+
+.services-main-container .circle .inner-circle:hover{
+    transform: scale(1.1);
+    background-color: rgb(84, 83, 83) ;
+    cursor: pointer;
+
+}
+
+
+
+.service-ke-ander-container{
+    width: 100%;
+    height: auto ;
+    
+    display: flex;
+    flex-wrap: wrap;
+   position: absolute;
+    margin-top: -120px;
+    
+   
+}
+
+
+.service-ke-ander-container{
+   position: relative;
+}
+
+
+.service-ke-ander-container .inner-service-ke-ander{
+    width:75%;
+    height: 500px;
+    background-color: #892D2D;
+    
+    margin: auto;  
+    
+}
+
+
+.service-ke-ander-container .inner-service-ke-ander .inner-service-content{
+    width: 95%;
+    height: 133px;
+    
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    flex-wrap: wrap;
+    border-radius: 4px;
+}
+
+.service-ke-ander-container .inner-service-ke-ander .inner-service-content{
+    margin-top: 93px;
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.service-ke-ander-container .inner-service-ke-ander .inner-service-content .inner-service-one h1{
+        color: white;
+        font-weight: 300;
+        font-size: 37px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+
+.service-ke-ander-container .inner-service-ke-ander .inner-service-content .inner-service-one2 h1{
+    color: white;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-top: 10px;
+    font-stretch: condensed; 
+}
+
+
+.service-ke-ander-container .inner-service-ke-ander .inner-service-content .service-p{
+    width: 80%;
+    display: block;
+    color: rgb(208, 208, 208);
+    font-weight: 400;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+
+
+.services-main-container{
+    width: 100%;
+    height: 512px ;
+    position: relative;
+  
+    
+}
+
+
+
+
+
+
+
+ .img-container{
+    width: 73%;
+    height: 300px;
+   
+    display: flex;
+    flex-direction: row;
+   
+    flex-wrap: wrap;
+    
+    
+
+}
+
+.img-container{
+    margin: auto;
+}
+
+
+
+.baap-img-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    
+   margin-top: -190px;
+   
+}
+
+
+.img-container .img-div1, .img-div2 ,.img-div3{
+    
+    width: 350px;
+    height: 300px;
+    margin-bottom: 23px;
+    margin: auto;
+    
+   
+    
+}
+
+
+.img-container .img-div1, .img-div2 ,.img-div3 img{
+    border: 1px solid white;
+}
+
+
+.btn-img{
+    width: 350px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: -120px;
+   text-align: center;
+   
+
+}
+
+.inner-img{
+    
+    color: white;
+    
+    width: 50%;
+    height: 80%;
+    text-align: center;
+    font-weight: 600;
+    transition: all 0.3s;
+    border-radius: 7px;
+}
+
+
+
+.inner-img:hover{
+   
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    width: 50%;
+    height: 80%;
+    text-align: center;
+    font-weight: 600;
+}
+
+
+
+.img-div1{
+    width: 346px;
+    position: relative;
+}
+
+
+.img-div1 img{
+    width: 100%;
+    display: block;
+    margin: auto;
+
+}
+
+
+
+.img-div2{
+    width: 346px;
+    position: relative;
+}
+
+
+.img-div2 img{
+    width: 100%;
+    display: block;
+    margin: auto;
+
+}
+
+
+.img-div3{
+    width: 346px;
+    position: relative;
+}
+
+
+.img-div3 img{
+    width: 100%;
+    display: block;
+    margin: auto;
+
+}
+
+
+
+.img-content{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+    height: 233px;
+   
+}
+
+
+
+
+.img-content h1{
+    font-size: 17px;
+    color: white;
+    border: 2px solid white;
+    padding: 9px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    transition: all 0.4s;
+}
+
+.img-content h1:hover{
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    font-weight: 400;
+   
+
+}
+
+.img-content > *{
+    transform: translateY(25px);
+     transition: transform 0.6s;
+}
+
+.img-content:hover *{
+    transform: translateY(0px);
+}
+
+
+.img-content:hover{
+    opacity: 1;
+}
+
+
+
+
+@media only screen and (max-width: 691px) {
+
+ 
+
+    .img-container{
+        margin: auto;
+    }
+
+    .img-container{
+        width: 93%;
+        height: auto;
+       
+        display: flex;
+        margin-top: 85px;
+        flex-direction: row;
+       
+        flex-wrap: wrap;
+      
+        
+    
+    }
+
+  
+
+
+    .baap-img-container{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        
+       
+    }
+
+    .service-ke-ander-container .inner-service-ke-ander{
+        width:100%;
+        height: 500px;
+        background-color: #892D2D;
+        margin: auto;
+        
+        
+    }
+
+    
+
+}
+
+
+@media screen and (min-device-width: 691px) and (max-device-width: 1000px) { 
+
+
+
+   
+     .img-container{
+        width: 93%;
+        height: auto;
+       
+        display: flex;
+        flex-direction: row;
+       
+        flex-wrap: wrap;
+        
+        
+    
+    }
+
+    
+    .service-ke-ander-container .inner-service-ke-ander{
+        width:100%;
+        height: 500px;
+        background-color: #892D2D;
+        margin: auto;
+        
+        
+    }
+
+}
+
+
+@media screen and (min-device-width: 1001px) and (max-device-width: 1200px) { 
+
+
+
+   
+    .img-container{
+       width: 73%;
+       height: auto;
+      
+       display: flex;
+       flex-direction: row;
+      
+       flex-wrap: wrap;
+      
+       
+   
+   }
+
+}
+
+
+
+@media screen and (min-device-width: 1201px) and (max-device-width: 1600px) { 
+
+
+
+   
+    .img-container{
+       width: 73%;
+       height: auto;
+      
+       display: flex;
+       flex-direction: row;
+      
+       flex-wrap: wrap;
+       
+       
+   
+   }
+   
+
+
+}
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,98 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.ceo-setion-main-cont{
+    width: 100%;
+    background-color: white;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    margin-top: 5px;
+}
+.ceo-sectionimg-div{
+    width: 25%;
+    height: 100%;
+    margin-left: 60px;
+    /* border: 1px solid green; */
+}
+.ceo-sectionimg-div>img{
+    width: 170px;
+    height: 240%;
+    border-radius: 20px;
+}
+.ceo-section-content{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    /* border: 1px solid gray; */
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ceo-section-main-content{
+    font-weight: bold;
+    font-size: x-large;
+}
+.ceo-section-content-name{
+    margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+    .ceo-setion-main-cont{
+        width: 100%;
+        background-color: white;
+        /* border: 1px solid red; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px;
+    }
+    .ceo-sectionimg-div{
+        width: 100%;
+        height: 100%;
+        margin-left: 0px;
+        /* border: 1px solid green; */
+    }
+    .ceo-section-content{
+        margin-top: 30px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        /* border: 1px solid gray; */
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+
+@media (min-width: 769px) and (max-width: 900px) {
+    .ceo-setion-main-cont{
+        width: 100%;
+        background-color: white;
+        /* border: 1px solid red; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 50px;
+    }
+    .ceo-sectionimg-div{
+        width: 25%;
+        height: 100%;
+        margin-left: 20px;
+        /* border: 1px solid green; */
+    }
+    .ceo-section-content{
+        width: 60%;
+        height: 100%;
+        display: flex;
+        /* border: 1px solid gray; */
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+}

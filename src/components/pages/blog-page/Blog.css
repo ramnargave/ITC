@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.Blog-container-photo{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    
+}
+
+.Blog-container-photo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.4);
+}
+
+
+.blog-title{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    margin-top: -140px;
+
+}
+
+
+.blog-title h2{
+    color: aliceblue;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+} 
+
+
+
+.blog-all-content-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+
+.blog-all-inner-content{
+    margin-top: 50px;
+    width: 60%;
+    height: auto;
+  
+    /* border: 2px solid black; */
+}
+
+.blog-all-inner-content img{
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+}
+
+
+.folder-content{
+    margin-top: 12px;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.folder-content svg{
+    color: brown;
+}
+
+.folder-content h5{
+    cursor: pointer;
+    color: brown;
+}
+
+
+.title-envornment{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 12px;
+
+}
+
+.title-envornment h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.title-envornment p{
+    font-size: 20px;
+    color: #8893B9;
+}
+
+
+.readmorecontainer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 28px;
+    margin-top: 10px;
+   
+}
+
+.readmorecontainer .readmore h3{
+    font-size: 16px;
+    color: brown;
+    cursor: pointer;
+
+}
+
+.readmorecontainer .readmore h3:hover{
+    color: black;
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .blog-all-inner-content{
+        margin-top: 50px;
+    width: 100%;
+    height: auto;
+    }
+
+    .folder-content{
+        margin-left: 12px;
+    }
+
+    .title-envornment{
+        margin-left: 12px;
+    }
+
+    .title-envornment h2{
+        font-size: 19px;
+    }
+
+    .title-envornment p{
+        font-size: 15px;
+    }
+
+    .readmorecontainer .readmore{
+        margin-left: 12px;
+    }
+
+}
+
+
+
+
+@media only screen and (max-width: 1000px) {
+
+    .blog-all-inner-content{
+        margin-top: 50px;
+    width: 100%;
+    height: auto;
+    }
+
+    .folder-content{
+        margin-left: 12px;
+    }
+
+    .title-envornment{
+        margin-left: 12px;
+    }
+
+    .title-envornment h2{
+        font-size: 19px;
+    }
+
+    .title-envornment p{
+        font-size: 15px;
+    }
+
+    .readmorecontainer .readmore{
+        margin-left: 12px;
+    }
+
+}

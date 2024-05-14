@@ -1,0 +1,335 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.contact-container{
+    width: 100%;
+    height: 250px;
+    background-color: black;
+    
+    position: relative;
+
+}
+
+
+.contact-container h1{
+    color: white;
+}
+
+
+.contact-container img{
+    object-fit: cover;
+}
+
+
+.contact-us-img {
+    width: 100%;
+    height: 250px;
+    position: relative;
+    
+}
+
+
+
+.contact-us-img img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+   /* filter: brightness(0.4); */
+   filter: opacity(30%);
+}
+
+
+.contact-us-title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+}
+
+
+.contact-us-title h1{
+    margin-top: -150px;
+    letter-spacing: 2px;
+    font-size: 29px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.contact-details-container{
+   
+    width: 100%;
+    height: 400px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.contact-details-container{
+    margin-top: 90px;
+}
+
+
+.contact-details-one{
+    /* margin-left: 140px; */
+    width: 600px;
+    height: auto;
+    /* background-color: black; */
+}
+
+
+
+
+.contact-details-two{
+    width: 650px;
+    height: 900px;
+    /* background-color: rgb(144, 80, 80); */
+}
+
+
+.contact-details-one svg{
+    color: white;
+   font-size: 23px;
+   
+}
+
+
+.location-contact{
+    background-color: #031B4E;
+    width: 160px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 7px;
+    border-bottom: 3px solid black;
+}
+
+
+
+.location-contact span{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+.location-icon-div {
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+}
+
+
+.location-upper p{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #8893B9;
+}
+
+
+.location-upper h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #031B4E;
+    font-weight: 500;
+}
+
+.contact-title h1{
+    font-size: 29px;
+    margin-bottom: 23px;
+    font-weight: 500;
+    margin-top: 23px;
+    color: #031B4E;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.location-icon-div{
+    gap: 12px;
+    margin-bottom: 33px;
+}
+
+
+
+.location-icon-div svg{
+    font-size: 38px;
+    color: firebrick;
+    
+}
+
+
+
+
+.contact-details-two{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+.contact-details-two h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #031B4E;
+    font-weight: 600;
+
+}
+
+
+
+.div-details-contact input{
+    width: 100%;
+    height: 40px;
+    padding-left: 12px;
+    margin-top: 26px;
+    border: 1px solid #892D2D;
+
+   
+}
+
+
+
+.div-details-contact input:hover{
+    border: 1px solid #892D2D;
+}
+
+
+
+.send-message{
+    width: 170px;
+    height: 50px;
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #892D2D;
+
+    color: white;
+
+}
+
+
+.send-message:hover{
+    background-color: #031B4E;
+    cursor: pointer;
+}
+
+
+.send-message h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+    
+
+}
+
+
+@media only screen and (max-width: 600px) {
+
+
+
+    
+    .send-message{
+        margin-left: 9px;
+        width: 150px;
+        height: 40px;
+        margin-top: 32px;
+    }
+    .location-contact svg,span{
+        font-size: 14px;
+       
+    }
+
+    .location-contact{
+        width: 140px;
+        margin-left: 12px;
+    }
+
+    .contact-title h1{
+        font-size: 22px;
+    }
+    .contact-title{
+        margin-left: 12px;
+    }
+
+    .location-icon-div{
+        margin-left: 12px;
+    }
+
+    .location-icon-div svg{
+        font-size: 27px;
+    }
+
+    .location-icon-div h3{
+        font-size: 14px;
+        margin-bottom: 7px;
+    }
+
+    .contact-details-two h2{
+        margin-left: 12px;
+        margin-top: 12px;
+        font-size: 18px;
+    }
+
+
+    .div-details-contact{
+        height: 50px;
+        
+    }
+    .div-details-contact input{
+        width: 95%;
+        margin-left: 4px;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 800px) {
+
+
+    
+    .location-contact svg,span{
+        font-size: 17px;
+       
+    }
+
+    .location-contact{
+        width: 140px;
+        margin-left: 12px;
+    }
+
+    .contact-title h1{
+        font-size: 22px;
+    }
+    .contact-title{
+        margin-left: 12px;
+    }
+
+    .location-icon-div{
+        margin-left: 12px;
+    }
+
+    .location-icon-div svg{
+        font-size: 27px;
+    }
+
+    .location-icon-div h3{
+        font-size: 14px;
+        margin-bottom: 7px;
+    }
+
+    .contact-details-two h2{
+        margin-left: 12px;
+        margin-top: 12px;
+        font-size: 18px;
+    }
+
+
+    .div-details-contact input{
+        width: 95%;
+        margin-left: 4px;
+    }
+}

@@ -1,0 +1,127 @@
+.modal-main-cont{
+    width: 350px;
+    height: 380px;
+    /* border: 1px solid red; */
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+}
+.modal-main-cont-hide{
+    width: 350px;
+    /* height: 380px; */
+    /* border: 1px solid red; */
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+}
+.message-icon{
+    width: 100%;
+    /* border: 1px solid rgb(0, 0, 255); */
+    display: flex;
+    justify-content: end;
+    padding-right: 30px;
+    margin-top: 20px;
+}
+.modal-pop-main-cont{
+    width: 100%;
+    height: 95%;
+    border: 1px solid green;
+    background-color: rgb(244, 76, 76);
+    border-radius:  10px;
+    position: absolute;
+    right: 0%;
+    padding: 0 30px;
+    transition: 0.5s;
+}
+.modal-pop-main-cont-hide{
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    right: -130%;
+    border: 1px solid green;
+    background-color: rgb(244, 76, 76);
+    border-radius:  10px;
+    padding: 30px;
+    transition: 0.5s;
+}
+.message-pop-close{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.modal-pop-main-cont>input{
+    width: 100%;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+.modal-pop-main-cont>textarea{
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    border-radius:  10px;
+    padding: 10px;
+}
+.modal-pop-main-cont>button{
+    background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+    border: 0;
+    border-radius: 12px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 2.5;
+    outline: transparent;
+    padding: 0 1rem;
+    text-decoration: none;
+    transition: box-shadow .2s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .modal-main-cont{
+        width: 100%;
+        height: 400px;
+        /* border: 1px solid red; */
+        position: fixed;
+        right: 0px;
+        bottom: 0px;
+    }
+    .modal-main-cont-hide{
+        width: 400px;
+        /* height: 380px; */
+        /* border: 1px solid red; */
+        position: fixed;
+        right: 0px;
+        bottom: 30px;
+    }
+    .modal-pop-main-cont{
+        width: 100%;
+        height: 100%;
+        /* border: 1px solid green; */
+        background-color: rgb(244, 76, 76);
+        border-radius:  10px;
+        position: absolute;
+        right: 0%;
+        padding: 0 30px;
+        transition: 0.5s;
+    }
+    
+}

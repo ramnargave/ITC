@@ -1,0 +1,131 @@
+.front-about-us-container{
+    width: 100%;
+    padding: 40px 80px;
+    background-color: beige;
+}
+.front-about-top-container{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+.front-about-content-left-div{
+    width: 65%;
+    /* border: 1px solid red; */
+}
+.front-about-content-heading-div{
+    font-weight: bold;
+    font-size: x-large;
+    /* margin-bottom: 20px; */
+}
+.front-content-div{
+    font-size: larger;
+}
+.front-content-div{
+    margin-top: 20px;
+    /* padding: 10px; */
+}
+.front-about-contack-btn-div{
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    width: 150px;
+    text-align: center;
+}
+.front-about-to-img-div{
+    width: 30%;
+    height: 300px;
+    /* border: 1px solid green; */
+}
+.front-about-to-img-div>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.front-about-bottom-conatiner{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}
+.front-about-bootm-card{
+    width: 30%;
+    height: 180px;
+    /* border: 1px solid green; */
+    border-radius: 10px;
+    background-color: rgb(255, 115, 0);
+    padding: 40px;
+}
+.front-about-bootm-card-heading-div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.front-about-bootm-card-detail{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+
+
+@media (min-width: 768px) and (max-width: 900px) {
+    .front-about-us-container{
+        width: 100%;
+        padding: 40px 10px;
+        background-color: beige;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .front-about-us-container{
+        width: 100%;
+        padding: 40px 20px;
+        background-color: beige;
+    }
+    .front-about-top-container{
+        display: block;
+        /* align-items: center; */
+        justify-content: space-between;
+    } 
+    .front-about-to-img-div{
+        width: 100%;
+        height: 300px;
+        /* border: 1px solid green; */
+    }
+    .front-about-content-heading-div{
+        font-weight: bold;
+        font-size: x-large;
+        margin-top: 30px;
+    }
+    .front-about-content-left-div{
+        width: 100%;
+        /* border: 1px solid red; */
+    }
+    .front-about-bottom-conatiner{
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        overflow-x: auto;
+        justify-content: space-between;
+        /* border: 1px solid red; */
+    }
+    .front-about-bootm-card{
+        min-width: 340px;
+        height: 180px;
+        /* border: 1px solid green; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        background-color: rgb(255, 115, 0);
+        padding: 40px;
+    }
+}
