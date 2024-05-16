@@ -8,7 +8,9 @@ const OurTeam = () => {
     <>
       <div className="our-team-main-container">
         <div className="our-team-wrapper">
-          <h1>Our Team</h1>
+          <h1>
+            Our <span>Team</span>
+          </h1>
 
           <div className="our-team">
             <div className="our-team-member">
@@ -17,7 +19,7 @@ const OurTeam = () => {
               </div>
               <h3>John Sigh</h3>
               <p className="role">UI developer</p>
-              <p>
+              <p className="ourteam">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
                 rem veniam molestias tenetur sunt.
               </p>
@@ -28,7 +30,7 @@ const OurTeam = () => {
               </div>
               <h3>John Sigh</h3>
               <p className="role">UI developer</p>
-              <p>
+              <p className="ourteam">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
                 rem veniam molestias tenetur sunt.
               </p>
@@ -39,7 +41,7 @@ const OurTeam = () => {
               </div>
               <h3>John Sigh</h3>
               <p className="role">UI developer</p>
-              <p>
+              <p className="ourteam">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
                 rem veniam molestias tenetur sunt.
               </p>

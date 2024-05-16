@@ -31,10 +31,10 @@ const Header = () => {
             </a>
             <ul id="submenu">
               <li>
-                <a href="#">Traning</a>
+                <a href="/training">Traning</a>
               </li>
               <li>
-                <a href="#">Testing</a>
+                <a href="/testing">Testing</a>
               </li>
               <li>
                 <a href="#">Reasearch & Development</a>

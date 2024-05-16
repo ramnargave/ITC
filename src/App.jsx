@@ -7,6 +7,7 @@ import Header from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
 import History from "./components/pages/history/History";
 import Gallery from "./components/pages/gallery/Gallery";
+import Testing from "./components/pages/testing/Testing";
 
 
 
@@ -23,6 +24,7 @@ function App() {
         <Route path="/singleblog" element={<BlogSingle/>}/>
         <Route path="/history" element={<History/>}/>
         <Route path="gallery" element={<Gallery/>}/>
+        <Route path="/testing" element={<Testing/>}/>
       </Routes>
       <Footer/>
     </Router>
