@@ -18,6 +18,8 @@
     height: 298px;
     border: 1px solid rgb(48, 48, 48);
     background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
 }
 .feedback-card-img-div{
     width: 100%;
@@ -26,6 +28,9 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color: #4081fb;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
 }
 .feedback-card-img-div>img{
     width: 100px;
@@ -48,6 +53,7 @@
     width: 100%;
     text-align: center;
     font-weight: bold;
+    margin-top: 10px;
 }
 
 @media (min-width: 769px) and (max-width: 900px) {

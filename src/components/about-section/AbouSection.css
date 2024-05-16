@@ -34,6 +34,10 @@
     width: 150px;
     text-align: center;
 }
+.white{
+    color: white;
+    text-decoration: none;
+}
 .front-about-to-img-div{
     width: 30%;
     height: 300px;

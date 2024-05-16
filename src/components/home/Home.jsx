@@ -1,4 +1,5 @@
 import Aboutsection from "../about-section/Aboutsection";
+import Carousel from "../carousel/Carousel";
 import CeoSection from "../ceo/CeoSection";
 import Modal from "../contackModal/Modal";
 import Feedbacksection from "../feedbacksection/Feedbacksection";
@@ -12,6 +13,9 @@ function Home() {
   return (
     <>
       <div className="home-container">
+
+        {/* carousel  */}
+        <Carousel/>
 
 
         {/* messagepop  */}
