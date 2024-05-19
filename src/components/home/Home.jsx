@@ -2,11 +2,11 @@ import Aboutsection from "../about-section/Aboutsection";
 import Carousel from "../carousel/Carousel";
 import CeoSection from "../ceo/CeoSection";
 import Modal from "../contackModal/Modal";
-import Feedbacksection from "../feedbacksection/Feedbacksection";
+// import Feedbacksection from "../feedbacksection/Feedbacksection";
 import FrontBlog from "../front-blog/FrontBlog";
 import FrontServices from "../front-service/FrontService";
 import FrontContacj from "../frontContact/FrontContacj";
-// import OurTeam from "../our-team/OurTeam";
+import OurTeam from "../our-team/OurTeam";
 import "./Home.css";
 
 function Home() {
@@ -37,11 +37,12 @@ function Home() {
         <FrontBlog />
 
         {/* feedback section  */}
-        <Feedbacksection />
+        {/* <Feedbacksection /> */}
 
 
         {/* our_team  */}
-        {/* <OurTeam /> */}
+        <OurTeam />
+
       </div>
     </>
   );

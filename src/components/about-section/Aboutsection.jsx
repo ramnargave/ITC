@@ -4,11 +4,18 @@ import FmdGoodIcon from '@mui/icons-material/FmdGood';
 import WatchLaterIcon from '@mui/icons-material/WatchLater';
 import "./AbouSection.css";
 import { Link } from 'react-router-dom';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function Aboutsection() {
+  AOS.init({
+    offset: 120, 
+    delay: 0, 
+    duration: 1000, 
+  });
   return (
     <>
-      <div id='about' className="front-about-us-container">
+      <div id='about' className="front-about-us-container" data-aos="fade-left">
           <div className="front-about-top-container">
           <div className="front-about-to-img-div">
               <img src="https://th.bing.com/th/id/OIP.-BuFk_jhTmTWH7VHKAukCQHaE8?rs=1&pid=ImgDetMain" alt="" />

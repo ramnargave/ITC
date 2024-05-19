@@ -1,7 +1,7 @@
 .front-blog-main-container{
   width: 100%;
   padding: 40px 80px;
-  background-color: rgb(28, 143, 250);
+  background: linear-gradient(45deg, #007bfe, #00abfa);
 }
 .front-blog-heading-div{
     width: 100%;

@@ -1,10 +1,17 @@
 import { Link } from "react-router-dom";
 import "./FrontContact.css";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function FrontContacj() {
+  AOS.init({
+    offset: 120, 
+    delay: 0, 
+    duration: 1000, 
+  });
   return (
     <>
-      <div className="front-contact-main-cont">
+      <div className="front-contact-main-cont" data-aos="fade-right" >
         <div className="front-contact-left-div">
           <div className="front-contact-left-div-top">
             LET'S TALKS ABOUT OUR SOLUTIONS

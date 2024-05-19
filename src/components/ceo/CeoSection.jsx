@@ -1,10 +1,13 @@
 import './CeoSection.css'
 import ceoimg from '../../assets/img/ceo.png'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function CeoSection() {
+  AOS.init();
   return (
     <>
-    <div className="ceo-setion-main-cont">
+    <div className="ceo-setion-main-cont" data-aos="fade-left" >
         <div className="ceo-sectionimg-div">
             <img src={ceoimg} alt="" />
         </div>

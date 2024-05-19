@@ -1,11 +1,18 @@
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import "./FrontBlog.css";
 import { Link } from "react-router-dom";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function FrontBlog() {
+  AOS.init({
+    offset: 120, 
+    delay: 0, 
+    duration: 1000, 
+  });
   return (
     <>
-      <div className="front-blog-main-container">
+      <div className="front-blog-main-container" data-aos="fade-down-left" >
         {/* <div className="front-blog-heading-div">
             <div>LETEST NEWS <span>& BLOG</span></div>
         </div> */}

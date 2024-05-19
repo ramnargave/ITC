@@ -6,11 +6,19 @@ import Img1 from "../../assets/img/training.jpg";
 import Img2 from "../../assets/img/testing.jpg";
 
 import Img3 from "../../assets/img/R & D.jpg";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 const services = () => {
+  AOS.init({
+    offset: 120, 
+    delay: 0, 
+    duration: 1000, 
+  });
   return (
     <>
-      <div className="services-main-container">
+      <div className="services-main-container" data-aos="fade-right" >
         <img src={ServiceImg} alt="services img" />
         <div className="circle">
           <div className="inner-circle">
