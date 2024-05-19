@@ -12,7 +12,7 @@ function FrontBlog() {
   });
   return (
     <>
-      <div className="front-blog-main-container" data-aos="fade-down-left" >
+      <div className="front-blog-main-container" data-aos="fade-up-right" >
         {/* <div className="front-blog-heading-div">
             <div>LETEST NEWS <span>& BLOG</span></div>
         </div> */}
