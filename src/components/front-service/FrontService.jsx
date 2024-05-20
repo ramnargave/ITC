@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 import "./FrontService.css";
-import ServiceImg from "../../assets/img/img1.jpg";
+import ServiceImg from "../../assets/img/slide1.png"
 import Img1 from "../../assets/img/training.jpg";
 import Img2 from "../../assets/img/testing.jpg";
 

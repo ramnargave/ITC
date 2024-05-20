@@ -12,7 +12,7 @@ function CeoSection() {
             <img src={ceoimg} alt="" />
         </div>
         <div className="ceo-section-content">
-            <div className="ceo-section-main-content">Dr. Nandan Kumar, a leader in protective textiles, founded High Performance Textiles Pvt Ltd in 2010, focusing on innovative spinning technologies and flame-retardant fibers.
+            <div className="ceo-section-main-content">Dr. Nandan Kumar, a leader in protective textiles, founded Institute of Technical Textiles in 2016, focusing on training, testing and innovation in the field of protective textiles.
 
 
 </div>

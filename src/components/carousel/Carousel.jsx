@@ -1,35 +1,31 @@
 import './Carousel.css'
+import slide1 from '../../assets/img/slide1.png'
+import slide2 from '../../assets/img/slide2.png'
+import slide3 from '../../assets/img/slide3.jpg'
 
 function Carousel() {
   return (
     <>
     <div className="caroussel-main-container">
     <div className="banner banner1">
-        <img src="https://smartslider3.com/wp-content/uploads/slider133/slider-with-lightbox-background3.jpeg" alt="" />
+        <img src={slide1} alt="" />
         <div className="text-boxt text-boxt1">
-            <h1>Slience hsn sddfi </h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus suscipit soluta voluptatibus dolor, cum aut rerum inventore tempora assumenda quibusdam fugit! Eligendi, debitis velit eum tenetur ad quis similique quibusdam!</p>
+            {/* <h1>Introduction</h1>
+            <p>To develop a commercial testing & training centre in the field of technical textiles with focus on the 3M framework</p> */}
         </div>
     </div>
     <div className="banner banner2">
-        <img src="https://smartslider3.com/wp-content/uploads/slider132/image-slider-with-thumbnail1.jpeg" alt="" />
+        <img src={slide2} alt="" />
         <div className="text-boxt text-boxt2">
-            <h1>Slience hsn sddfi </h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus suscipit soluta voluptatibus dolor, cum aut rerum inventore tempora assumenda quibusdam fugit! Eligendi, debitis velit eum tenetur ad quis similique quibusdam!</p>
+        {/* <h1>Testing facilities: Protective Textiles</h1>
+            <p>ITT provides one stop solution for training, testing, R & D in the field of protective Textiles. </p> */}
         </div>
     </div>
     <div className="banner banner3">
-        <img src="https://smartslider3.com/wp-content/uploads/slider133/slider-with-lightbox-background3.jpeg" alt="" />
+        <img src={slide3} alt="" />
         <div className="text-boxt text-boxt3">
-            <h1>Slience hsn sddfi </h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus suscipit soluta voluptatibus dolor, cum aut rerum inventore tempora assumenda quibusdam fugit! Eligendi, debitis velit eum tenetur ad quis similique quibusdam!</p>
-        </div>
-    </div>
-    <div className="banner banner4">
-        <img src="https://th.bing.com/th/id/R.e641f8ba19bda4d7f180a21ed1c5dc0e?rik=BTT7QTfCHaCXKg&riu=http%3a%2f%2fthemes.ququplay.com%2fjqm-ios-theme%2fpreview%2fimg%2fslide3.png&ehk=Ui1acrg6aFYbT1%2bQuZ8fmzld6mGcHWll9A2DdahxNnc%3d&risl=&pid=ImgRaw&r=0" alt="" />
-        <div className="text-boxt text-boxt4">
-            <h1>Slience hsn sddfi </h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus suscipit soluta voluptatibus dolor, cum aut rerum inventore tempora assumenda quibusdam fugit! Eligendi, debitis velit eum tenetur ad quis similique quibusdam!</p>
+        {/* <h1>ITT </h1>
+            <p>ITT provides one stop solution for training, testing, R & D in the field of protective Textiles. </p> */}
         </div>
     </div>
     </div>

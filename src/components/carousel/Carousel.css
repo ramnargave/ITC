@@ -1,7 +1,7 @@
 .caroussel-main-container{
     position: relative;
     width: 100%;
-    height: 80vh;
+    height: 75vh;
 }
 .banner1,.banner2,.banner3,.banner4{
     width: 100%;
@@ -19,22 +19,22 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    animation: zoom-out 3s linear infinite;
+    /* animation: zoom-out 3s linear infinite; */
 }
-@keyframes zoom-out {
+/* @keyframes zoom-out {
     100%{
         width: 130%;
         height: 130%;
     }
-}
+} */
 .text-boxt{
     width: 600px;
     position: absolute;
     top: 200px;
     left: 100px;
-    color: #fff;
-    animation: textup 3s linear infinite;
-    transform: translateY(100px);
+    color: #000000;
+    /* animation: textup 3s linear infinite; */
+    /* transform: translateY(100px); */
 }
 @keyframes textup{
     10%{
@@ -149,7 +149,7 @@
     .caroussel-main-container{
         position: relative;
         width: 100%;
-        height: 40vh;
+        height: 30vh;
     }
     .text-boxt{
         width: 80%;

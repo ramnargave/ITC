@@ -62,6 +62,7 @@
     border-radius: 10px;
     background-color: rgb(255, 115, 0);
     padding: 40px;
+    overflow: hidden;
 }
 .front-about-bootm-card-heading-div{
     display: flex;
@@ -131,5 +132,6 @@
         border-radius: 10px;
         background-color: rgb(255, 115, 0);
         padding: 40px;
+        overflow: hidden;
     }
 }

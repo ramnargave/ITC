@@ -8,6 +8,7 @@ import Footer from "./components/footer/Footer";
 import History from "./components/pages/history/History";
 import Gallery from "./components/pages/gallery/Gallery";
 import Testing from "./components/pages/testing/Testing";
+import Training from "./components/pages/training/Training";
 
 
 
@@ -25,6 +26,7 @@ function App() {
         <Route path="/history" element={<History/>}/>
         <Route path="gallery" element={<Gallery/>}/>
         <Route path="/testing" element={<Testing/>}/>
+        <Route path="/training" element={<Training/>}/>
       </Routes>
       <Footer/>
     </Router>

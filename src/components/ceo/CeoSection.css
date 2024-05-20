@@ -8,6 +8,10 @@
     align-items: center;
     padding: 50px;
     margin-top: 5px;
+    background-image: url("../../assets/img/feedbg.png");
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .ceo-sectionimg-div{
     width: 25%;

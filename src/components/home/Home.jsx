@@ -6,7 +6,7 @@ import Modal from "../contackModal/Modal";
 import FrontBlog from "../front-blog/FrontBlog";
 import FrontServices from "../front-service/FrontService";
 import FrontContacj from "../frontContact/FrontContacj";
-import OurTeam from "../our-team/OurTeam";
+// import OurTeam from "../our-team/OurTeam";
 import "./Home.css";
 
 function Home() {
@@ -41,7 +41,7 @@ function Home() {
 
 
         {/* our_team  */}
-        <OurTeam />
+        {/* <OurTeam /> */}
 
       </div>
     </>

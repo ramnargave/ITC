@@ -17,7 +17,7 @@ function FrontContacj() {
             LET'S TALKS ABOUT OUR SOLUTIONS
           </div>
           <div className="front-contact-left-div-bottom">
-            Our excellent on testing seervice to assits you better
+            Our excellent on testing service to assits you better
           </div>
         </div>
         <Link to={"/contact"} className="front-contact-right-div">
